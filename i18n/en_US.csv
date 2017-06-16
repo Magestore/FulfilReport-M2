@@ -1,0 +1,37 @@
+"Show Report","Show Report"
+Filter,Filter
+From,From
+To,To
+"Fulfil Action","Fulfil Action"
+"User Name","User Name"
+"Total Requests","Total Requests"
+"Fulfilment by staff","Fulfilment by staff"
+Day,Day
+"Fulfilment by staff (Daily)","Fulfilment by staff (Daily)"
+"Warehouse Name","Warehouse Name"
+"Total Picked Requests","Total Picked Requests"
+"Total Packed Requests","Total Packed Requests"
+"Fulfilment by warehouse","Fulfilment by warehouse"
+"Fulfilment by warehouse (Daily)","Fulfilment by warehouse (Daily)"
+Reports,Reports
+Dashboard,Dashboard
+"Fulfillment Reports","Fulfillment Reports"
+"Fulfillment - Reports","Fulfillment - Reports"
+"Fulfilment Report","Fulfilment Report"
+"Hello World","Hello World"
+Picked,Picked
+Packed,Packed
+All<br>carriers<br>,All<br>carriers<br>
+Today,Today
+Yesterday,Yesterday
+"Last 7 days","Last 7 days"
+"Last 30 days","Last 30 days"
+"Custom Range","Custom Range"
+OK,OK
+"Last 14 days","Last 14 days"
+Reports:,Reports:
+"Staff Report","Staff Report"
+"Fulfillment by staff","Fulfillment by staff"
+"Warehouse Report","Warehouse Report"
+"Fulfillment by warehouse","Fulfillment by warehouse"
+"Report Sales By Status","Report Sales By Status"
