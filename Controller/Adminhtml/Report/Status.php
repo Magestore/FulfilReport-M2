@@ -29,6 +29,7 @@ class Status extends \Magento\Framework\App\Action\Action
     public function execute()
     {
         $resultPage = $this->_papeFactory->create();
+        $resultPage->setActiveMenu('Magestore_FulfilReport::fulfil_reports');
         $block = $resultPage->getLayout()
             ->createBlock('Magestore\FulfilReport\Block\Adminhtml\Report\Dashboard')
             ->setTemplate('Magestore_FulfilReport::report/status.phtml')

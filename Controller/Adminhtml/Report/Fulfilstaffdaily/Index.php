@@ -16,7 +16,7 @@ class Index extends \Magestore\FulfilReport\Controller\Adminhtml\Report\Abstract
     public function execute()
     {
         $this->_initAction()->_setActiveMenu(
-            'Magestore_FulfilReport::fulfilreport'
+            'Magestore_FulfilReport::fulfil_reports'
         )->_addBreadcrumb(
             __('Fulfilment by staff (Daily)'),
             __('Fulfilment by staff (Daily)')

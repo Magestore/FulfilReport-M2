@@ -41,7 +41,7 @@ abstract class Report extends \Magento\Backend\App\Action
      */
     protected function initPage($resultPage)
     {
-        $resultPage->setActiveMenu('Magestore_FulfilSuccess::report')
+        $resultPage->setActiveMenu('Magestore_FulfilReport::fulfil_reports')
             ->addBreadcrumb(__('Fulfilment Report'), __('Fulfilment Report'));
         return $resultPage;
     }

@@ -25,7 +25,7 @@ class Dashboard extends \Magento\Framework\App\Action\Action
     public function execute()
     {
         $resultPage =  $this->_pageFactory->create();
-        $resultPage->setActiveMenu('Magestore_FulfilReport::fulfilreport');
+        $resultPage->setActiveMenu('Magestore_FulfilReport::fulfil_reports');
         $resultPage->getConfig()->getTitle()->prepend(__('Dashboard'));
         return $resultPage;
     }

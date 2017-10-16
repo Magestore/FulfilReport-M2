@@ -30,6 +30,7 @@ class Pick extends \Magento\Framework\App\Action\Action
     public function execute()
     {
         $resultPage = $this->_papeFactory->create();
+        $resultPage->setActiveMenu('Magestore_FulfilReport::fulfil_reports');
         $block = $resultPage->getLayout()
             ->createBlock('Magestore\FulfilReport\Block\Adminhtml\Report\Pick')
             ->setTemplate('Magestore_FulfilReport::report/pick.phtml')
